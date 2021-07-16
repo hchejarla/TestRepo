@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.938">
+    <testcase classname="Credit Card Payment" name="Make Minimum Due payment" time="0.299">
+        <system-out><![CDATA[Given user is on Pay credit card page.......................................passed
+When user fills all details and select Minimum amount option................passed
+And User clicks on Pay button...............................................passed
+Then Credit Card confirmation page is displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Payment" name="Make Minimum Due payment 2" time="0.013">
+        <system-out><![CDATA[Given user is on Pay credit card page.......................................passed
+When user fills "hepsi" details and select Minimum amount option and enter amount as "1000".passed
+And User clicks on Pay button...............................................passed
+Then Credit Card confirmation page is displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Payment" name="Make Minimum Due payment 3" time="0.017">
+        <system-out><![CDATA[Given user is on Pay credit card page.......................................passed
+When user fills "Megha" details and select Minimum amount option and enter amount as "2000".passed
+And User clicks on Pay button...............................................passed
+Then Credit Card confirmation page is displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Payment" name="Registering the application" time="0.006">
+        <system-out><![CDATA[Given user is on registeration page.........................................passed
+When user enters following details..........................................passed
+And user clicks on register button..........................................passed
+Then Registration sucessful popup is displayed..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Payment" name="Make Minimum Due payment" time="0.006">
+        <system-out><![CDATA[Given user is on Pay credit card page.......................................passed
+When user fill Hepsi details and enter amount as 1000.......................passed
+And User clicks on Pay button...............................................passed
+Then Credit Card confirmation page is displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Payment" name="Make Minimum Due payment 2" time="0.007">
+        <system-out><![CDATA[Given user is on Pay credit card page.......................................passed
+When user fill Megha details and enter amount as 2000.......................passed
+And User clicks on Pay button...............................................passed
+Then Credit Card confirmation page is displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Payment" name="Make Minimum Due payment 3" time="0.003">
+        <system-out><![CDATA[Given user is on Pay credit card page.......................................passed
+When user fill yuio details and enter amount as 5000........................passed
+And User clicks on Pay button...............................................passed
+Then Credit Card confirmation page is displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Payment" name="Make Minimum Due payment 4" time="0.008">
+        <system-out><![CDATA[Given user is on Pay credit card page.......................................passed
+When user fill oiuy details and enter amount as 8000........................passed
+And User clicks on Pay button...............................................passed
+Then Credit Card confirmation page is displayed.............................passed
+]]></system-out>
+    </testcase>
+</testsuite>

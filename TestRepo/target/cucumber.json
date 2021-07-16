@@ -1,0 +1,623 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-01T06:43:18.497Z",
+        "line": 9,
+        "name": "Make Minimum Due payment",
+        "description": "",
+        "id": "credit-card-payment;make-minimum-due-payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3001000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on Pay credit card page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_pay_credit_card_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills all details and select Minimum amount option",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_fills_all_details_and_select_minimum_amount_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1005400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Pay button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Credit Card confirmation page is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.credit_card_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T06:43:18.829Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1001600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.IntializetheBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Make Minimum Due payment",
+        "description": "",
+        "id": "credit-card-payment;make-minimum-due-payment",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on Pay credit card page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_pay_credit_card_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user fills \"hepsi\" details and select Minimum amount option and enter amount as \"1000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hepsi",
+                  "offset": 12
+                },
+                {
+                  "val": "1000",
+                  "offset": 81
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_fills_something_details_and_select_minimum_amount_option_and_enter_amount_as_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1005700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Pay button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Credit Card confirmation page is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.credit_card_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T06:43:18.855Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.IntializetheBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Make Minimum Due payment",
+        "description": "",
+        "id": "credit-card-payment;make-minimum-due-payment",
+        "after": [
+          {
+            "result": {
+              "duration": 2004900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.closeApplication()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on Pay credit card page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_pay_credit_card_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user fills \"Megha\" details and select Minimum amount option and enter amount as \"2000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Megha",
+                  "offset": 12
+                },
+                {
+                  "val": "2000",
+                  "offset": 81
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_fills_something_details_and_select_minimum_amount_option_and_enter_amount_as_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User clicks on Pay button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Credit Card confirmation page is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.credit_card_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T06:43:18.887Z",
+        "line": 30,
+        "name": "Registering the application",
+        "description": "",
+        "id": "credit-card-payment;registering-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on registeration page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_registeration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters following details",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_enters_following_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "john",
+                  "1234",
+                  "1234",
+                  "john@abcd.com",
+                  "324567",
+                  "India"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on register button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Registration sucessful popup is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.registration_sucessful_popup_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T06:43:18.901Z",
+        "line": 45,
+        "name": "Make Minimum Due payment",
+        "description": "",
+        "id": "credit-card-payment;make-minimum-due-payment;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on Pay credit card page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_pay_credit_card_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user fill Hepsi details and enter amount as 1000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hepsi",
+                  "offset": 10
+                },
+                {
+                  "val": "1000",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_fills_details_and_select_minimum_amount_option_and_enter_amount_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks on Pay button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Credit Card confirmation page is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.credit_card_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T06:43:18.923Z",
+        "line": 46,
+        "name": "Make Minimum Due payment",
+        "description": "",
+        "id": "credit-card-payment;make-minimum-due-payment;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 991000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on Pay credit card page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_pay_credit_card_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 983200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user fill Megha details and enter amount as 2000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Megha",
+                  "offset": 10
+                },
+                {
+                  "val": "2000",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_fills_details_and_select_minimum_amount_option_and_enter_amount_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 994700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks on Pay button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1007400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Credit Card confirmation page is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.credit_card_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T06:43:18.939Z",
+        "line": 47,
+        "name": "Make Minimum Due payment",
+        "description": "",
+        "id": "credit-card-payment;make-minimum-due-payment;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on Pay credit card page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_pay_credit_card_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user fill yuio details and enter amount as 5000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yuio",
+                  "offset": 10
+                },
+                {
+                  "val": "5000",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_fills_details_and_select_minimum_amount_option_and_enter_amount_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks on Pay button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Credit Card confirmation page is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.credit_card_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T06:43:18.956Z",
+        "line": 48,
+        "name": "Make Minimum Due payment",
+        "description": "",
+        "id": "credit-card-payment;make-minimum-due-payment;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is on Pay credit card page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_is_on_pay_credit_card_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user fill oiuy details and enter amount as 8000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oiuy",
+                  "offset": 10
+                },
+                {
+                  "val": "8000",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition2.user_fills_details_and_select_minimum_amount_option_and_enter_amount_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User clicks on Pay button",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.user_clicks_on_pay_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Credit Card confirmation page is displayed",
+            "match": {
+              "location": "stepDefinitions.StepDefinition2.credit_card_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Credit Card Payment",
+    "description": "",
+    "id": "credit-card-payment",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFiles/login.feature",
+    "tags": []
+  }
+]
